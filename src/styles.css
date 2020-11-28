@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.color-picker,
+.width-picker {
+  display: flex;
+  justify-content: center;
+}
+
+.color-square,
+.width-square,
+.clear-canvas {
+  width: 25px;
+  height: 25px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: black;
+}
+
+.width-square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
